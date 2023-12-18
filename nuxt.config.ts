@@ -7,5 +7,16 @@ export default defineNuxtConfig({
     '@nuxtjs/plausible',
     // https://github.com/nuxt/devtools
     '@nuxt/devtools'
-  ]
+  ],
+
+  content: {
+    markdown: {
+      remarkPlugins: [
+        'remark-math'
+      ],
+      rehypePlugins: [
+        'rehype-katex'
+      ]
+    }
+  }
 })

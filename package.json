@@ -17,5 +17,9 @@
     "@types/node": "^20.7.1",
     "eslint": "^8.50.0",
     "nuxt": "^3.7.4"
+  },
+  "dependencies": {
+    "rehype-katex": "^5.0.0",
+    "remark-math": "^4.0.0"
   }
 }

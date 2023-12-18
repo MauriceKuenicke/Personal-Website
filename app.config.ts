@@ -32,7 +32,7 @@ export default defineAppConfig({
       linkedin: {
         icon: 'uil:linkedin',
         label: 'LinkedIn',
-        href: 'https://www.linkedin.com/company/nuxtlabs'
+        href: 'https://www.linkedin.com/in/maurice-k%C3%BCnicke-429a211a3/'
       },
 
       github: 'MauriceKuenicke'
